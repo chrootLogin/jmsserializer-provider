@@ -15,7 +15,7 @@ Add the provider to your composer.json
 ``` {.json}
 {
   "requires": {
-    "rootlogin/jmsserializer-provider": "dev-master"
+    "rootlogin/jmsserializer-provider": "~0.5"
   }
 }
 ```
@@ -42,11 +42,6 @@ Run the tests
 -------------
 Go to the base directory of the jms-serializerprovider. Do a `composer install` and enter `vendor/bin/phpunit`.
 
-
 Contribution
 ------------
 Pull request are welcome. Or if you can't or want code you can also contribute by opening a ticket if you see something is wrong.
-
-Warning
--------
-This project is in early development stages. No warranty if it kills your kittens or starts a nuclear war ;)
