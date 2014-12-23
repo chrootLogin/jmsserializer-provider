@@ -15,7 +15,7 @@ Add the provider to your composer.json
 ``` {.json}
 {
   "requires": {
-    "rootlogin/jms-serializerprovider": "dev-master"
+    "rootlogin/jmsserializer-provider": "dev-master"
   }
 }
 ```
