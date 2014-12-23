@@ -21,10 +21,18 @@ class JMSSerializerProviderTest extends \PHPUnit_Framework_TestCase
 		$this->app->register(new JMSSerializerProvider());
 	}
 
-	public function testGetJMSBundle()
+	public function testJMSBundle()
 	{
 		/** @var \JMS\Serializer\Serializer $serializer */
 		$serializer = $this->app['jmsserializer'];
-		var_dump($serializer);
+
+		$this->assertInstanceOf('JMS\Serializer\Serializer', $serializer);
+	}
+
+	public function testDefaults()
+	{
+		$this->assertEquals(null, $this->app['jmsserializer.cache_dir']);
+		$this->assertEquals(null, $this->app['jmsserializer.metadata_dir']);
+		$this->assertEquals(false, $this->app['jmsserializer.debug']);
 	}
 }
