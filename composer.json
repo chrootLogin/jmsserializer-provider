@@ -1,5 +1,5 @@
 {
-  "name": "rootlogin/jms-serializer-provider",
+  "name": "rootlogin/jms-serializerprovider",
   "license": "Apache-2.0",
   "type": "library",
   "description": "jms serializer provider for the silex framework",
