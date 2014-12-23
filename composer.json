@@ -1,0 +1,32 @@
+{
+  "name": "rootlogin/jms-serializer-provider",
+  "license": "Apache-2.0",
+  "type": "library",
+  "description": "jms serializer provider for the silex framework",
+  "keywords": ["jms serializer","jms","silex"],
+  "homepage": "https://rootlogin.ch",
+  "authors": [
+    {
+      "name": "Simon Erhardt",
+      "email": "me@rootlogin.ch",
+      "homepage": "https://rootlogin.ch",
+      "role": "Lead Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "rootLogin": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3",
+    "silex/silex": "~1.2",
+    "jms/serializer": "0.16.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "saxulum/saxulum-console": "~2.1,>=2.1.3"
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}
