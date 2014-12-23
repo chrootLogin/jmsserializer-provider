@@ -3,10 +3,10 @@ Silex JMS Serializer Provider
 
 A simple silex provider for the famous [JMS Serializer](http://jmsyst.com/libs/serializer).
 
-[![Build Status](https://api.travis-ci.org/chrootlogin/jmsserializer-provider.png?branch=master)](https://travis-ci.org/chrootlogin/jmsserializer-provider)
+[![Build Status](https://api.travis-ci.org/chrootLogin/jmsserializer-provider.png?branch=master)](https://travis-ci.org/chrootLogin/jmsserializer-provider)
 [![Total Downloads](https://poser.pugx.org/rootlogin/jmsserializer-provider/downloads.png)](https://packagist.org/packages/rootlogin/jmsserializer-provider)
 [![Latest Stable Version](https://poser.pugx.org/rootlogin/jmsserializer-provider/v/stable.png)](https://packagist.org/packages/rootlogin/jmsserializer-provider)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/chrootlogin/jmsserializer-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/chrootlogin/jmsserializer-provider/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/chrootLogin/jmsserializer-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/chrootLogin/jmsserializer-provider/?branch=master)
 
 Installation
 ------------
